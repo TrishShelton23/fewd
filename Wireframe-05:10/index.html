@@ -12,24 +12,28 @@
     padding: 0;
     box-sizing: 0
 }
-body{
-    height: 100vh;
-    max-width: 100%;
+html{
+    
 }
-main{
-    border: black solid 1px;
+header{
+display: flex;
+justify-content: space-between;
 }
-nav li{
+li{
     display: inline;
 }
-.logo-top-page > span{
+body{
+    border: black solid 1px;
+}
+
+#logo-top-container{
     background-color: white;
 }
     </style>
 </head>
 
 <header>
-    <div>LOGO</div>
+    <div id="logo-top-container">LOGO</div>
     <nav>
     <ul>
     <li>About</li>
@@ -41,10 +45,6 @@ nav li{
 
 <body>
     <main>
-            <section id="logo-top-page" class="logo-top-page">
-               
-            </section>
-    
         <section>
        <p>We are changing the world <br> - so startup</p>
         </section>
