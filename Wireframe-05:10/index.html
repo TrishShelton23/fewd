@@ -4,67 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 
-    <style>
-*{
-    margin: 0;   
-    padding: 0;
-    box-sizing: 0
-}
-html{
-    
-}
-header{
-display: flex;
-justify-content: space-between;
-}
-li{
-    display: inline;
-}
-body{
-    border: black solid 1px;
-}
-
-#logo-top-container{
-    background-color: white;
-}
-    </style>
 </head>
 
-<header>
-    <div id="logo-top-container">LOGO</div>
+<header class="dark-container">
+    <h1>LOGO</h1>
     <nav>
     <ul>
-    <li>About</li>
-    <li>News</li>
-    <li>Login</li>
+    <li><a>About</a></li> /
+    <li><a>News</a></li> /
+    <li><a>Login</a></li>
     </ul>
     </nav>
 </header>
 
 <body>
     <main>
-        <section>
-       <p>We are changing the world <br> - so startup</p>
+        <section id="first-container" class="container light-container">
+       <div><p>We are changing the world <br> - so startup</p></div>
         </section>
-        
-        <section>
-            <ul>
-            <li><caption>Item 1</caption></li>
-            <li><caption>Item 2</caption></li>
-            <li><caption>Item 3</caption></li>
-            </ul>
+        <section id="second-container" class="container dark-container">
+          <div><ul>
+            <li><div class="container-box"></div><caption>Item 1</caption></li>
+            <li><div class="container-box" ></div><caption>Item 2</caption></li>
+            <li><div class="container-box"></div><caption>Item 3</caption></li>
+            </ul></div>
         </section>
-       
-        <section>
-<p>How great would this website be?
+        <section id="third-container" class="container light-container">
+<div><p>How great would this website be?
     Probably not that great, could use some
-    better content, right?</p>
+    better content, right?</p></div>
         </section>
-    
-        <footer></footer>
-
     </main>
-</body>
+    </body>
+        <footer></footer>
 </html>

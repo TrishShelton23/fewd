@@ -1,0 +1,41 @@
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: 0
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header{
+    padding: 0px 100px 0px 100px;
+}
+h1{
+    background: white;
+    padding: 2px;
+    border: black solid 1px;
+}
+li{
+    display: inline;
+}
+body{
+    border: black solid 1px;
+}
+
+.container{
+   height: auto;
+}
+.light-container{
+    background-color: white;
+    border-top: black solid 1px;
+}
+.dark-container{
+    background-color: lightgrey;
+    border-top: black solid 1px;
+}
+.container-box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
