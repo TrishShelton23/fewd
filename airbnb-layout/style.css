@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    height: 100px;
+    background-color:#ebefec;
+    font-family: 'Roboto', sans-serif;
+}
+.container-image-guide{
+    width: 15em;
+    height: 15em;
+    background-size: cover;
+}
