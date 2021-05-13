@@ -28,8 +28,11 @@ img{
     height: 15em;
     background-size: cover;
 }
-.container-row-gallery{
+.container-row-gallery, h2{
 display:flex;
+justify-content: center;
+align-items: center;
+
 }
 .container-section{
     text-align: center;
@@ -37,9 +40,10 @@ display:flex;
 }
 .container-image-guide{
     margin: 5px;
-}
-caption{
-    position: absolute;
+    width: 15em;
+    height: 15em;
+    background-size: cover;
+    color: white;
 }
 button{
 width: 200px;
@@ -59,9 +63,9 @@ button:hover{
     <h1>Meet Guidebooks</h1>
     <p>Discover hundreds of locals spots recommended by Airbnb hosts</p>
 <div class="container-row-gallery">
-    <div class="container-image-guide"><h2>Sans Francisco</h2><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco-2.jpg"></div>
-    <div class="container-image-guide"><h2>New York</h2><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/new-york.jpg" ></div>
-    <div class="container-image-guide"><h2>London</h2><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/london.jpg"></div>
+    <div class="container-image-guide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco-2.jpg)"><h2>Sans Francisco</h2></div>
+    <div class="container-image-guide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/new-york.jpg)"><h2>New York</h2></div>
+    <div class="container-image-guide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/london.jpg)"><h2>London</h2></div>
 </div>
     <button type="button">See All Guidebooks</button>
 </section>
@@ -69,9 +73,9 @@ button:hover{
     <h1>Just for the weekend</h1>
     <p>Discover now, inspiring places close to home</p>
 <div div class="container-row-gallery">
-    <div class="container-image-guide"><h2>Napa</h2><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/napa.jpg"></div>
-    <div class="container-image-guide"><h2>Sonoma</h2><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sonoma.jpg"></div>
-    <div class="container-image-guide"><h2>San Francisco</h2><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco.jpg"></div>
+    <div class="container-image-guide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/napa.jpg)"><h2>Napa</h2></div>
+    <div class="container-image-guide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sonoma.jpg)"><h2>Sonoma</h2></div>
+    <div class="container-image-guide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco.jpg)"><h2>San Francisco</h2></div>
 </div>
     <button type="button">See All Destinations</button>
 </section>
