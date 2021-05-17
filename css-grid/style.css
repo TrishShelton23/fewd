@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, red, blue);
+    min-height: 100vh;
+  }
+  .container {
+    padding: 2em;
+  }
+  .item {
+    background: linear-gradient(white, rgb(206, 206, 206));
+    height: 8em;
+    width: 15em;
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.8);
+    border-radius: 0.25em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .item:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 0.25em 0.25em 1em rgba(0, 0, 0, 0.5);
+  }
