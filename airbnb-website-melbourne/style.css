@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+/* Redish / Pink:*/--button-color: #ff5358;
+/* Dark red for button hover:*/--hover-button: #e00007;
+/* Very light gray:*/--grey-box: #efefef;
+
+}
+header{
+justify-content: space-between;
+align-items: center;
+margin: 1em;
+}
+li, ul{
+display: inline;
+margin-left: 32px;
+}
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+    font-size: 12px;
+  }
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+.flex{
+    display: flex;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    color: white;
+}
+.border-content{
+    border:rgba(80, 80, 80, 0.137) 1px solid;
+}
+#container-top-banner{
+height: 70vh;
+max-width: 100%;
+box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+.content-container-top{
+    text-align: center;
+    padding-top: 200px;
+}
+#container-locals{
+    background-color: #efefef;
+    min-height: auto;
+    max-width: 100%;
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 35px;
+    padding: 4em .5em;
+}
+.locals-content-container > p{
+    background-color: white;
+}
+.container-featured{
+    display: grid;
+        grid-template-rows: auto auto;
+}
+#container-featured-title{
+    text-align: center;
+}
+#featured-neighborhoods{
+    display: grid;
+}
+.featured-content{
+    height: 200px;
+    max-width: 200px;
+    background-size: cover;
+}
+.featured-content:nth-child(1){
+    background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg);
+}
+.featured-content:nth-child(2){
+    background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg);
+}
+.featured-content:nth-child(3){
+    background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg );
+}
+
+button{
+    width: 30%;
+    padding: 10px 20px;
+    background-color: #ff5358;
+    border-style: none;
+    border-bottom: #e00007;
+    color: white;
+    font-size: 1.5em;
+    border-radius: .2em;
+    margin-top: 16px;
+}
+button:hover{
+    background-color:#e00007;
+}
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 2.5em;
+}
+h5{
+    font-size: 1.5em;
+}
+p, h3{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
