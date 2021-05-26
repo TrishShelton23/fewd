@@ -88,6 +88,15 @@ background-repeat: no-repeat;
 .featured-content:nth-child(3){
     background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg );
 }
+footer{
+    background-color: black;
+    text-align: center;
+    height: 20vh;
+}
+hr{
+    color:#7a7373;
+    width: 90%;
+}
 
 button{
     width: 30%;
