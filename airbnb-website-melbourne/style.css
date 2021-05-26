@@ -13,11 +13,17 @@ justify-content: space-between;
 align-items: center;
 margin: 1em;
 }
+<<<<<<< HEAD
 li, ul, a{
 display: inline;
 margin-left: 16px;
 text-decoration: none;
 color: black;
+=======
+li, ul{
+display: inline;
+margin-left: 32px;
+>>>>>>> 79b0084e04d4a5d11b865a10b67bd5d5d8cb01d0
 }
 body {
     font-family: 'Nunito', Arial, sans-serif;
@@ -40,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 .border-content{
     border:rgba(80, 80, 80, 0.137) 1px solid;
 }
+<<<<<<< HEAD
 .box-shadow{
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
@@ -50,6 +57,16 @@ h1, h2, h3, h4, h5, h6 {
 .content-container-heading{
     text-align: center;
     padding-top: 250px;
+=======
+#container-top-banner{
+height: 70vh;
+max-width: 100%;
+box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+.content-container-top{
+    text-align: center;
+    padding-top: 200px;
+>>>>>>> 79b0084e04d4a5d11b865a10b67bd5d5d8cb01d0
 }
 #container-locals{
     background-color: #efefef;
@@ -63,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 .locals-content-container > p{
     background-color: white;
 }
+<<<<<<< HEAD
 #container-featured{
     text-align: center;
     padding: 5em;
@@ -79,6 +97,23 @@ background-size:cover;
 background-repeat: no-repeat;
 
 }   
+=======
+.container-featured{
+    display: grid;
+        grid-template-rows: auto auto;
+}
+#container-featured-title{
+    text-align: center;
+}
+#featured-neighborhoods{
+    display: grid;
+}
+.featured-content{
+    height: 200px;
+    max-width: 200px;
+    background-size: cover;
+}
+>>>>>>> 79b0084e04d4a5d11b865a10b67bd5d5d8cb01d0
 .featured-content:nth-child(1){
     background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg);
 }
@@ -88,6 +123,7 @@ background-repeat: no-repeat;
 .featured-content:nth-child(3){
     background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg );
 }
+<<<<<<< HEAD
 footer{
     background-color: black;
     text-align: center;
@@ -97,6 +133,8 @@ hr{
     color:#7a7373;
     width: 90%;
 }
+=======
+>>>>>>> 79b0084e04d4a5d11b865a10b67bd5d5d8cb01d0
 
 button{
     width: 30%;
@@ -118,9 +156,12 @@ h1{
 h2{
     font-size: 2.5em;
 }
+<<<<<<< HEAD
 h3{
     font-size: 1.7em;
 }
+=======
+>>>>>>> 79b0084e04d4a5d11b865a10b67bd5d5d8cb01d0
 h5{
     font-size: 1.5em;
 }
