@@ -2,3 +2,58 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    font-family: 'Lucida Sans',sans-serif;
+}
+header{
+    background-color: #00c180;
+    padding: 16px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+header img{
+    height: 30px;
+}
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+#content-container{
+    background: rgb(222, 222, 222);
+    height: auto;
+    padding: 16px;
+    margin: 8px;
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 16px;
+}
+.price-of-listing, .details-of-listing, .address-of-listing, .content-homes-heading{
+    margin: 8px;
+    list-style-type: none;
+    font-size: 16px;
+}
+h4{
+    font-size: 20px;
+}
+.listing-item{
+    max-width:auto;
+}
+.listing-image{
+    height: 200px;
+    max-width:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.listing-details{
+    background-color: white;
+    height: 125px;
+    padding: 8px;
+}
+.address-of-listing{
+    color: rgb(152, 152, 152);
+}
+.bold{
+    font-weight: bolder;
+}
+
