@@ -5,31 +5,56 @@
 html{
     font-family: 'Lucida Sans',sans-serif;
 }
-header, nav{
+header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: rgb(49, 173, 0);
-    padding: 16px;
+    padding: 10px;
     color: white;
     list-style-type: none;
 }
-#trulia-logo{
-    height: 25px;
+#header-top{
+    display: flex;
+    align-items: center;
 }
-nav > ul li, dt{
+#trulia-logo{
+    height: 30px;
+}
+#trulia-nav-links{
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+#trulia-save-links{
+    margin-left: 800px;
+}
+nav ul li, dt{
     display: inline;
 }
 a{
     text-decoration: none;
     color: white;
     cursor: pointer;
+    margin-left: 10px;
 }
 a:hover{
     text-decoration: underline;
 }
 #trulia-links-2{
     margin-right: 100px;
+}
+#login-button{
+    border-radius: 100%;
+    border: 1px white solid;
+    background-color: rgb(49, 173, 0);
+    padding: 8px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#login-button-viewport{
+position:relative;
+    z-index: -1;
 }
 #content-container{
     background: rgb(222, 222, 222);
@@ -93,4 +118,97 @@ h4::before{
 .bold{
     font-weight: bolder;
 }
-
+/*Mobile*/
+@media screen and (max-width:655px) and (min-width: 1px){
+    #content-container{
+        display: gird;
+            grid-template-columns: 1fr 1fr;
+        margin:10px;
+    }
+    #trulia-logo{
+        margin-left: 250px;
+    }
+.listing-item{
+    max-width: 100%;
+}
+    header{
+        display: block;
+        text-align: center;
+    }
+    #trulia-nav-links{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #trulia-direct-links{
+        margin-left:-75px;
+    }
+    #trulia-save-links{
+        margin-left: 0px;
+    }
+    #login-button{
+        display: none;
+    }
+    #login-button-viewport{
+        z-index: 1;
+        border-radius: 100%;
+        border: 1px white solid;
+        background-color: rgb(49, 173, 0);
+        padding: 8px;
+        color: white;
+        margin-left: 180px;
+        cursor: pointer;
+    }
+    nav{
+        margin-top: 10px;
+    }
+}
+/*Tablet*/
+@media screen and (max-width: 1001px) and (min-width: 655px){
+    header{
+        display: block;
+    }
+    #trulia-logo{
+        margin-left: 425px;
+    }
+    #trulia-nav-links{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #trulia-direct-links{
+        margin-left:-75px;
+    }
+    #trulia-save-links{
+        margin-left: 0px;
+    }
+    #login-button{
+        display: none;
+    }
+    #login-button-viewport{
+        z-index: 1;
+        border-radius: 100%;
+        border: 1px white solid;
+        background-color: rgb(49, 173, 0);
+        padding: 8px;
+        color: white;
+        margin-left: 10px;
+        cursor: pointer;
+        margin-left: 350px;
+    }
+    nav{
+        margin-top: 10px;
+    }
+}
+#modal-box {
+    /* style your modal here */
+      height: 300px;
+      width: 400px;
+      border: 1px solid black;
+    }
+    
+    .open {
+    /* Anything in here will be applied when this class "open" is added to the modal box */
+    /* i.e. making it visable - you can add opening animations too */
+      background-color: green; 
+    }

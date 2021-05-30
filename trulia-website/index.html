@@ -5,24 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script scr="jsfile.js"></script>
     <title>Trulia Layout</title>
 </head>
     <header>
-        <div>
-        <img id="trulia-logo" src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fm.foolcdn.com%2Fmedia%2Faffiliates%2Fmortgage-account-art%2FTrulia_logo_modern_AmBw0eU.png&sp=1622329098T2a764c2f406b78bff4396b6b29a1db97b89de6be182aeacc9d21d89ae616dbb8" alt="trulia-logo">
-    </div>
-    <div>
-    <nav>
-    <ul>
+        <div id="header-top">
+    <img id="trulia-logo" src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftheme.zdassets.com%2Ftheme_assets%2F512712%2F6e85a64ef0449ff7cdcfe6458d69d7c96ebc4fb0.png&sp=1622391374T05a7f5ee35728bb6b5d0ef0c564b167ba31deaf68a2ed8adfb3e93c215d460a3" alt="trulia-logo">
+    <button id="login-button-viewport">TS</button>
+</div>
+<div>
+    <nav id="trulia-nav-links">
+    <ul id="trulia-direct-links">
      <li><a href="#">Buy</a></li>
      <li><a href="#">Rent</a></li>
      <li><a href="#">Mortgage</a></li>
      <li><a href="#">Local Scoop</a></li>
+    </ul>
+     <ul id="trulia-save-links">
      <li><a href="#">Saved Homes</a></li>
      <li><a href="#">Saved Searches</a></li>
     </ul>
-    </div>
-    </nav>
+    <button id="login-button">TS</button>
+</nav>
+</div>
     </header>
 <body>
     <section>
@@ -184,5 +189,13 @@
     </ul> 
     </section>
     </main>
+    <!-- put this anywhere you want -->
+    <section>
+<button onclick="openModal()">Open</button>
+<button onclick="closeModal()">Close</button>
+<div id="modal-box">
+<!--   put anything you want in here -->
+</div>
+</section>
 </body>
 </html>
