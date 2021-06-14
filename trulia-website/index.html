@@ -10,7 +10,7 @@
 </head>
     <header>
         <div id="header-top">
-    <img id="trulia-logo" src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftheme.zdassets.com%2Ftheme_assets%2F512712%2F6e85a64ef0449ff7cdcfe6458d69d7c96ebc4fb0.png&sp=1622391374T05a7f5ee35728bb6b5d0ef0c564b167ba31deaf68a2ed8adfb3e93c215d460a3" alt="trulia-logo">
+    <img id="trulia-logo" src="https://theme.zdassets.com/theme_assets/512712/6e85a64ef0449ff7cdcfe6458d69d7c96ebc4fb0.png" alt="trulia-logo">
     <button id="login-button-viewport">TS</button>
 </div>
 <div>
@@ -190,11 +190,33 @@
     </section>
     </main>
     <!-- put this anywhere you want -->
-    <section>
-<button onclick="openModal()">Open</button>
+    <section id="popup-modal">
 <button onclick="closeModal()">Close</button>
-<div id="modal-box">
-<!--   put anything you want in here -->
+<button onclick="openModal()">Open</button>
+<div class="modal-box">
+  <h1 class="bottom-margin">Want to get updates?</h1>
+  <form id="signUpModal">
+  <h3 class="bottom-margin">Sign Up Here</h3>
+    <table>
+    <tr>
+    <td><lable for="fname">First Name</lable></td>
+    <td><input type="text" id="fname"></td>
+    </tr>
+    <tr>
+    <td><lable for="fname">Last Name</lable></td>
+    <td><input type="text" id="lname"></td>
+    </tr>
+    <tr>
+    <td><lable for="phone">Phone #</lable></td>
+    <td><input type="tel" id="phone" value="(xxx)xxx-xxxx"></td>
+    </tr>
+    <tr>
+    <td><lable for="phone">Email</lable></td>
+    <td><input type="email" id="email"></td>
+    </tr>
+    <table>
+    <button id="submit-button" type="submit">Submit</button>
+  </form>
 </div>
 </section>
 </body>
