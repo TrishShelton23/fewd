@@ -200,15 +200,42 @@ h4::before{
         margin-top: 10px;
     }
 }
-#modal-box {
-    /* style your modal here */
-      height: 300px;
-      width: 400px;
-      border: 1px solid black;
-    }
-    
-    .open {
-    /* Anything in here will be applied when this class "open" is added to the modal box */
-    /* i.e. making it visable - you can add opening animations too */
-      background-color: green; 
-    }
+.modal-box {
+/* style your modal here */
+  /*display: none;*/
+  background-color: rgba(150, 255, 146, 0.603);
+  min-height: 50vh;
+  max-width: 80vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.open {
+/* Anything in here will be applied when this class "open" is added to the modal box */
+/* i.e. making it visable - you can add opening animations too */
+  display: block;
+  min-height: 100vh;
+}
+.close {
+  display: none;
+}
+form > h3, #submit-button{
+  margin-left: 50px;
+}
+#submit-button > button{
+    max-width: 50%;
+}
+.bottom-margin{
+  margin-bottom: 25px;
+}
+table > tr{
+  margin-bottom: 100px;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.808);
+    padding: 50px 100px 50px 100px;
+    border-radius: 25px;
+}
