@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#anime-image{
+    height: 100vh;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/J2XSqgAqREtpkGAWa6rMhkHA1Y0=/0x0:1600x900/1400x933/filters:focal(672x322:928x578):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/66320060/Tanjiro__Demon_Slayer_.0.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+}
+input[type="text"]{
+    min-height: 50px;
+    width: 300px;
+    margin-top: 400px;
+}
+input[type=submit]{
+    height: 40px;
+    width: 30%;
+    background-color: pink;
+    border-radius: 2em;
+    border: none;
+    cursor: pointer;
+}
+.one-piece{
+background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fdroidjournal.com%2Fwp-content%2Fuploads%2F2020%2F06%2Fhttps___hypebeast.com_image_2020_01_netflix-orders-one-piece-live-action-series-tomorrow-studios-info-001-1200x675.jpg&imgrefurl=https%3A%2F%2Fdroidjournal.com%2Fthings-you-should-know-about-netflixs-live-action-one-piece%2F14376&tbnid=58jiYJIbsiEkkM&vet=12ahUKEwjk_9_9gbvxAhWKHN8KHcPaBzQQMygKegUIARDuAQ..i&docid=jlV-lMH8jTK9DM&w=1200&h=675&q=one%20peice&ved=2ahUKEwjk_9_9gbvxAhWKHN8KHcPaBzQQMygKegUIARDuAQ");
+}
+.demon-slayer{
+
+}
+.naruto{
+
+}
+.my-hero{
+
+}
+.haikyuu{
+
+}
