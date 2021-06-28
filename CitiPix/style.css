@@ -1,7 +1,14 @@
 *{
+    text-align: center;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+legend{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgba(175, 175, 175, 0.561);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #anime-image{
     height: 100vh;
@@ -9,7 +16,9 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    text-align: center;
+}
+input{
+    font-size: 16px;
 }
 input[type="text"]{
     min-height: 50px;
@@ -17,25 +26,28 @@ input[type="text"]{
     margin-top: 400px;
 }
 input[type=submit]{
+    transition: 0.4s ease-in-out;
     height: 40px;
-    width: 30%;
+    width: 300px;
     background-color: pink;
     border-radius: 2em;
     border: none;
     cursor: pointer;
 }
+input[type=submit]:hover{
+    transition: 0.4s ease-in-out;
+    color: white;
+    background-color: rgb(251, 166, 180);
+}
 .one-piece{
 background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fdroidjournal.com%2Fwp-content%2Fuploads%2F2020%2F06%2Fhttps___hypebeast.com_image_2020_01_netflix-orders-one-piece-live-action-series-tomorrow-studios-info-001-1200x675.jpg&imgrefurl=https%3A%2F%2Fdroidjournal.com%2Fthings-you-should-know-about-netflixs-live-action-one-piece%2F14376&tbnid=58jiYJIbsiEkkM&vet=12ahUKEwjk_9_9gbvxAhWKHN8KHcPaBzQQMygKegUIARDuAQ..i&docid=jlV-lMH8jTK9DM&w=1200&h=675&q=one%20peice&ved=2ahUKEwjk_9_9gbvxAhWKHN8KHcPaBzQQMygKegUIARDuAQ");
 }
-.demon-slayer{
-
-}
 .naruto{
-
+background-image: url("https://images-na.ssl-images-amazon.com/images/I/91h6s7L8kzL._AC_SL1500_.jpg");
 }
 .my-hero{
-
+background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fthecinemaholic.com%2Fmy-hero-academia-season-5-episode-15-what-to-expect%2F&psig=AOvVaw0rTqm6PGfKBeAFg7dtjPpG&ust=1624993723239000&source=images&cd=vfe&ved=0CAcQjRxqFwoTCNjLpMKDu_ECFQAAAAAdAAAAABAP");
 }
 .haikyuu{
-
+background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fknowyourmeme.com%2Fmemes%2Fsubcultures%2Fhaikyuu&psig=AOvVaw3-tMavP_P_XwRQTMulmb_q&ust=1624993773253000&source=images&cd=vfe&ved=0CAcQjRxqFwoTCPiL2NeDu_ECFQAAAAAdAAAAABAD");
 }
